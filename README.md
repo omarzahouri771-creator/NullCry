@@ -21,6 +21,13 @@
 
 It supports building brand-new projects from scratch **and** editing existing codebases (upload a folder or a ZIP and describe the changes you want).
 
+## 🖼️ Screenshots
+ 
+<div align="center">
+<img src="https://github.com/omarzahouri771-creator/NullCry/blob/main/sch1.jpeg" alt="NullCry main interface" width="720"/>
+<br/><br/>
+<img src="./assets/screenshot-2.png" alt="NullCry build pipeline in action" width="720"/>
+</div>
 
 ## ✨ Key Features
 
