@@ -26,7 +26,8 @@ It supports building brand-new projects from scratch **and** editing existing co
 <div align="center">
 <img src="https://github.com/omarzahouri771-creator/NullCry/blob/main/sch1.jpeg" alt="NullCry main interface" width="720"/>
 <br/><br/>
-<img src="./assets/screenshot-2.png" alt="NullCry build pipeline in action" width="720"/>
+<img src="https://github.com/omarzahouri771-creator/NullCry/blob/main/sch2.jpeg" alt="NullCry build pipeline in action" width="720"/>
+
 </div>
 
 ## ✨ Key Features
