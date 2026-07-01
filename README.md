@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/logo.png" alt="NullCry Logo" width="140"/>
+
 
 # NullCry
 
@@ -104,9 +104,7 @@ Contributions, issues, and feature requests are welcome — feel free to open an
 - 🐦 X: [@nullcryai](https://x.com/nullcryai)
 - 📸 Instagram: [nullcryai](https://instagram.com/nullcryai)
 
-## 📄 License
 
-Released under the [MIT License](./LICENSE).
 
 ---
 
