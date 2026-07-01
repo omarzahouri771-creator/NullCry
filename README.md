@@ -8,8 +8,7 @@
 
 [![Website](https://img.shields.io/badge/website-nullcry.com-blueviolet)](https://nullcry.com)
 [![Twitter](https://img.shields.io/badge/X-@nullcryai-black)](https://x.com/nullcryai)
-[![Status](https://img.shields.io/badge/status-active-success)]()
-[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+
 
 </div>
 
