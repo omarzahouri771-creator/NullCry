@@ -1,5 +1,6 @@
 <div align="center">
 
+<img src="nullcry%20logo.png" alt="NullCry Logo" width="140"/>
 
 
 # NullCry
