@@ -1,122 +1,155 @@
 <div align="center">
 
-<img src="nullcry%20logo.png" alt="NullCry Logo" width="140"/>
+<img src="nullcry%20logo.png" alt="Nullcry Logo" width="140"/>
 
+# 🛡️ nullcry
 
-# NullCry
+**Local-First Endpoint Behavior & Threat Detection**
 
-**Build complete, production-ready software projects with AI — from a single prompt to a downloadable ZIP.**
+*Watches how your computer actually behaves — no cloud, no telemetry, no noise.*
 
-[![Website](https://img.shields.io/badge/website-nullcry.com-blueviolet)](https://nullcry.com)
-[![Twitter](https://img.shields.io/badge/X-@nullcryai-black)](https://x.com/nullcryai)
-
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#)
+[![Language](https://img.shields.io/badge/built%20with-Python-3776AB?logo=python&logoColor=white)](#)
+[![Privacy](https://img.shields.io/badge/data-100%25%20local-27ae60)](#)
+[![Status](https://img.shields.io/badge/status-MVP-8e44ad)](#)
+[![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](#license)
 
 </div>
 
 ---
 
-## 📖 Overview
+## Overview
 
-**NullCry V4** is an AI-powered project generation platform that turns natural-language descriptions (and even screenshots or wireframes) into complete, structured, and functional codebases. It plans the file architecture, generates production-quality code file-by-file, validates and self-corrects the output, and packages everything into a ready-to-download ZIP — no boilerplate, no manual setup.
+Most breaches today don't start with an exotic zero-day — they start with a click.
+A convincing email, a fake update, a "free tool" download: classic **social
+engineering**. **Nullcry** is a lightweight Windows endpoint agent that doesn't try
+to read the phishing email — it watches what happens **on the machine right after**
+someone is tricked, and catches the technical footprint in real time: a new file, an
+odd process, an encoded PowerShell command, a persistence entry, a suspicious outbound
+connection.
 
-It supports building brand-new projects from scratch **and** editing existing codebases (upload a folder or a ZIP and describe the changes you want).
-
-## 🖼️ Screenshots
- 
-<div align="center">
-<img src="https://github.com/omarzahouri771-creator/NullCry/blob/main/sch1.jpeg" alt="NullCry main interface" width="720"/>
-<br/><br/>
-<img src="https://github.com/omarzahouri771-creator/NullCry/blob/main/sch2.jpeg" alt="NullCry build pipeline in action" width="720"/>
-
-</div>
+Everything runs **100% locally**. No backend, no cloud dependency, no data ever leaves
+the device.
 
 ## ✨ Key Features
 
-### 🧠 Dual AI Engine — Fast & Deep Thinking
-- **Fast Mode** — generates each file directly for quick, efficient results.
-- **Deep Thinking Mode** — a multi-stage pipeline that first produces a full **architectural blueprint** (data flow, dependency graph, integration map, security/UX standards), then generates each file against that blueprint, and finally **validates and auto-fixes** every file (including a client-side syntax/bracket checker) before it's marked complete.
+- 🕵️ **Six parallel behavioral monitors** — files, processes, network, registry
+  persistence, scheduled tasks, and CPU spikes
+- 🧮 **Transparent risk-scoring engine** — every event adds weighted points to a
+  per-process score instead of firing isolated, context-free alerts
+- 🔕 **Quiet by design** — a single Windows toast notification only for confirmed
+  danger, throttled to at most once every 90 seconds
+- 📊 **Live dashboard** — filterable, real-time event table built with Tkinter
+- 🔎 **Full forensic detail on demand** — double-click any event for PID, process
+  name, full path, remote IP, country, and full risk breakdown
+- 📄 **One-click report export** — clean, print-ready HTML report (Ctrl+P → Save as
+  PDF)
+- 🌍 **Multilingual interface** — English, العربية, Español, Français, हिन्दी, with
+  full RTL support for Arabic
+- 🔒 **Zero telemetry** — no network calls, no external services, nothing phones home
 
-### 🎯 Multiple Project Types
-Choose the target stack before generating:
-- Web App (HTML/CSS/JS)
-- PHP + MySQL Web App
-- Python App (Flask/Django/Script)
-- Node.js REST API (Express)
-- React App
-- SQL Database (schema + queries)
-- Custom (any language/stack)
+## 📸 Screenshots
 
-### 🖥️ Language-Aware Code Generation
-NullCry auto-detects the target language of every file (JS, TS, JSX/TSX, Python, PHP, Java, Kotlin, Go, Rust, C/C++, SQL, HTML/CSS, Shell, JSON, and more) and applies a dedicated **senior-engineer expert prompt** per language — enforcing best practices like strict typing, PSR-12, PEP 8, prepared statements, idiomatic error handling, and memory safety.
+<div align="center">
 
-### 🗂️ Two Modes: New Project & Edit Existing Project
-- **New** — describe your idea → AI plans the file structure → review/edit the plan → build.
-- **Edit** — upload a project folder or a `.zip` → describe the changes → AI analyzes existing files, decides what to rebuild/keep/create/delete → applies surgical, dependency-safe edits while preserving working functionality.
+### Home Screen
+<img src="Screenshot%202026-08-23%20191943.png" alt="Nullcry home screen" width="700"/>
 
-### 🖼️ Visual Understanding (Vision Input)
-Attach screenshots, UI mockups, or wireframes directly in the chat input — the AI analyzes layout, spacing, typography, colors, and components to guide code generation (available in both Fast and Deep Thinking modes).
+### Live Reports Dashboard
+<img src="Screenshot%202026-08-23%20192209.png" alt="Nullcry live dashboard" width="700"/>
 
-### 🔌 Flexible API Routing
-Two ways to power generation, switchable at any time from the topbar:
-- **Token-based** — use NullCry's built-in DeepSeek token packages (purchasable via PayPal).
-- **Bring Your Own Key** — plug in your own API key for OpenAI (GPT), xAI (Grok), Google (Gemini), or DeepSeek. Keys are stored locally in the browser only.
+### Full Event Details
+<img src="Screenshot%202026-08-23%20192452.png" alt="Nullcry event details" width="450"/>
 
-### 📊 Live Build Pipeline
-Real-time progress bar, per-file streaming log (build/validate/fix/error events), and a **Stop** control to cancel an in-progress build at any time.
+### Confirmed Danger Alert
+<img src="Screenshot%202026-08-23%20192356.png" alt="Nullcry confirmed danger alert" width="600"/>
 
-### 🗃️ Interactive File Explorer & Export
-Generated projects open in a VS Code–style folder tree with syntax-highlighted code preview, one-click copy, and a **Download ZIP** button that packages the full project (plus an auto-generated `README.md`) for instant use.
+</div>
 
-### 👤 Accounts, Projects & Payments
-- Google Sign-In authentication
-- Per-user token balance synced with a backend (Firebase-ready)
-- Saved project history in the sidebar, reloadable anytime
-- Secure PayPal checkout for token package purchases
+## 🧠 How It Works
 
-### 📱 Fully Responsive
-A native-feeling mobile layout with a slide-in sidebar, adaptive topbar, and touch-optimized modals.
+Nullcry runs six lightweight background threads, each watching a layer of the
+operating system attackers depend on. Every finding feeds a shared, per-process risk
+score rather than being judged in isolation.
 
-## 🚀 How It Works
+| Monitor | Watches | Why it matters |
+|---|---|---|
+| **File Watcher** | New files in Downloads, Temp, AppData | Where a tricked user's malicious download lands first |
+| **Process Monitor** | Unapproved executables, LOLBins, dangerous command lines | Catches "living-off-the-land" techniques post-execution |
+| **PowerShell Guard** | Encoded commands, download/bypass/hidden keywords | The most common stage right after a phishing click |
+| **Persistence Watcher** | Registry `Run` key changes, new Scheduled Tasks | How malware survives a reboot |
+| **Network Sentinel** | Outbound connections from non-official paths | Flags C2 / exfiltration traffic |
+| **Resource Monitor** | Sudden, sustained CPU spikes | Surfaces silent background activity |
 
-1. **Choose a project type** (Web, PHP, Python, Node.js, React, SQL, or Custom)
-2. **Describe your project** — optionally attach reference images
-3. **Review the AI-generated file plan** (add, remove, or edit entries)
-4. **Build** — watch the live pipeline generate, validate, and fix each file
-5. **Explore & download** — browse the file tree and export a complete ZIP
+### From raw event to a clear verdict
 
-## 🛠️ Tech Stack
+```
+Event observed → Weighted risk points added → Score compared to thresholds
+    → Level assigned & logged → Toast alert only if "Confirmed Danger"
+```
 
-| Layer | Technology |
-|---|---|
-| Frontend | Vanilla JS, HTML5, CSS3 (custom design system) |
-| Icons | Phosphor Icons |
-| Fonts | Geist / Geist Mono |
-| ZIP handling | JSZip |
-| Auth & Data | Google Identity Services, Firebase Firestore |
-| Payments | PayPal SDK |
-| AI Providers | DeepSeek (native), OpenAI, xAI (Grok), Google Gemini |
+| Level | Score range | Meaning |
+|---|---|---|
+| 🟢 Normal | 0 – 24 | Routine activity, logged for context |
+| 🟠 Suspicious | 25 – 64 | Worth a glance, not yet alarming |
+| 🔴 Risk | 65 – 94 | Multiple weighted factors compounding |
+| 🟣 **Confirmed Danger** | 95+ | Only tier that triggers a desktop alert |
 
-## 📌 Roadmap
+## 🚀 Getting Started
 
-- [ ] Additional project templates (mobile apps, browser extensions)
-- [ ] Direct GitHub repository push after generation
-- [ ] Team/workspace collaboration
-- [ ] More granular per-file regeneration in Edit mode
+### Requirements
 
-## 🤝 Contributing
+```bash
+pip install psutil pillow
+```
 
-Contributions, issues, and feature requests are welcome — feel free to open an Issue or a Pull Request.
+> Requires Windows (uses `winreg`, `schtasks`, and Windows Toast notifications).
+> Python 3.9+ recommended.
 
-## 📬 Contact
+### Run from source
 
-- 🌐 Website: [nullcry.com](https://nullcry.com)
-- 🐦 X: [@nullcryai](https://x.com/nullcryai)
-- 📸 Instagram: [nullcryai](https://instagram.com/nullcryai)
+```bash
+python agent.py
+```
 
+### Build a standalone executable
 
+```bash
+pyinstaller --onefile --noconsole --clean --windowed agent.py
+```
+
+The compiled agent registers itself in `HKCU\...\Run` for auto-start and writes logs
+to `nullcry_monitor.log` next to the executable.
+
+## 🗺️ Roadmap
+
+- [ ] Benchmark detection accuracy against red-team / phishing simulation datasets
+- [ ] Optional encrypted fleet dashboard (raw data still stays on-device)
+- [ ] macOS and Linux endpoint support
+- [ ] Publish auditable, versioned detection rules
+- [ ] Formal packaging & installer for enterprise pilots
+
+## ⚠️ Disclaimer
+
+Nullcry is under active development and provided **as-is**. It is a heuristic,
+rule-based behavioral monitor — not a certified antivirus or EDR replacement. Always
+pair it with your organization's existing security stack and follow your local
+regulations regarding endpoint monitoring and employee privacy.
+
+## 📄 License
+
+Proprietary. All rights reserved. See repository for current licensing terms —
+contact the author for commercial use or licensing inquiries.
+
+## 👤 Author
+
+**Omar Zahouri**
+📍 Morocco
+📧 [ozahouri30@gmail.com](mailto:ozahouri30@gmail.com)
+🐙 [github.com/omarzahouri771-creator/NullCry](https://github.com/omarzahouri771-creator/NullCry)
 
 ---
 
 <div align="center">
-Made with ❤️ by the NullCry team
+<sub>Built solo, from scratch, in Morocco 🇲🇦 — because effective security tooling doesn't need the cloud to be powerful.</sub>
 </div>
