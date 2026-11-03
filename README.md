@@ -4,15 +4,6 @@ AI-Powered Software Development Platform
 
 Your AI. Your Projects. Your Freedom.
 
-""Website" (https://img.shields.io/badge/website-nullcry.com-111111?style=for-the-badge)" (https://nullcry.com)
-""BYOK" (https://img.shields.io/badge/AI-BYOK-blue?style=for-the-badge)" (#ai-providers)
-""No Login" (https://img.shields.io/badge/account-No%20Login-success?style=for-the-badge)" (#core-philosophy)
-""Platform" (https://img.shields.io/badge/platform-Web-orange?style=for-the-badge)" (https://nullcry.com)
-""Status" (https://img.shields.io/badge/status-Active-brightgreen?style=for-the-badge)" (https://nullcry.com)
-
-"Website" (https://nullcry.com) · "X" (https://x.com/nullcryai) · "Instagram" (https://instagram.com/nullcryai) · "GitHub" (https://github.com/omarzahouri771-creator/NullCry)
-
-</div>---
 
 Overview
 
